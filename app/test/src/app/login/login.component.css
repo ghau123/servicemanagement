@@ -1,0 +1,168 @@
+html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+    
+    .container{
+    height: 100%;
+    align-content: center;
+    }
+    .card-header h3{
+        color: white;
+        }
+        
+    .card{
+    height: 370px;
+    margin-top:none;
+    margin-bottom: none;
+    border-radius: 2%;
+    width: 400px;
+    background-color: rgba(0,0,0,0.8) !important;
+  
+   
+    }
+    
+    .card1{
+        height: 370px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 400px;
+        background-color: rgba(0,0,0,0.5) !important;
+    }
+
+
+
+
+       /* Social icons Facebook,Google+,Twitter  */
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #ee7503;
+    }
+    .social-a{
+        font-size: 60px;
+        margin-left: 10px;
+        color: #ee7503;
+      
+    }
+    
+    .social-a:hover{
+    color: black;
+    cursor: pointer;
+    }
+ 
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+  
+    }
+
+
+   
+  
+
+   /* Icons in the textbox  */
+    .input-group-prepend span{
+    width: 25px;
+    background-color: #ee7503;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+
+
+
+
+    
+   /* Remember Me  */
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+
+
+
+
+    /* Login Button */
+    .login_btn1{
+    color: black;
+    background-color: #ee7503;
+    width: 100px;
+    position: absolute;
+    right: 13px;
+    top:220px;
+    }
+    
+    .login_btn1:hover{
+    color: #ee7503;
+    background-color:black;
+    }
+
+
+    
+
+/* Sign Up Button */
+    .signup_btn{
+        color: white;
+    background-color: rgba(0,0,0,0.1);
+    width: 100px;
+    position: absolute;
+    right: 13px;
+    top: 315px;
+    }
+    .signup_btn:hover{
+        color: #ee7503;
+        background-color:black;
+        }
+
+
+
+
+  /* Links */
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+
+
+
+
+/* Backgroung Image */
+      .login,
+      .image {
+        min-height: 100vh;
+      }
+      
+      .bg-image {
+        background-image: url('./signin.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      
+  
+    
+    
+      
+  
+ 
+     

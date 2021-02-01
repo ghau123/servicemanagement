@@ -1,0 +1,76 @@
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+        
+        <div class=" col-md-8 col-lg-6">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-8 mx-auto">
+                            <h3 class="login-heading mb-4"></h3>                                                                                                                                                                       
+                            <div class="container">
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Sign In</h3>
+                                        <div class="d-flex justify-content-end social_icon">
+                                            <span><a class="social-a"
+                                                    href="https://bit.ly/2LUsdua">
+                                                    <i class="fab fa-facebook-square"></i></a></span>
+                                            <span><a class="social-a"
+                                                    href="https://bit.ly/3qNmtRP"><i
+                                                        class="fab fa-google-plus-square"></i></a></span>
+                                            <span><a class="social-a"
+                                                    href="https://bit.ly/3c1Py7Z"><i
+                                                        class="fab fa-twitter-square"></i></a></span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    <input  [(ngModel)]="loginUserData.email" name="email" type="text" class="form-control" placeholder="username">
+                                                </div>
+
+
+                                            </div>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                                    <input [(ngModel)]="loginUserData.password"  name="password" type="password" class="form-control" placeholder="password">
+                                                </div>
+
+                                            </div>
+                                            <div class="row align-items-center remember">
+                                                <input type="checkbox">Remember Me
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="submit" value="Login" class="btn float-right login_btn1" (click)="loginUser()" >
+                                                
+                                            </div>
+                                          
+                                        </form>
+                                    </div>
+                                    <div class="card-footer">
+
+                                        <div class="d-flex justify-content-center links"
+                                            style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                            Don't have an account?<a style="color: #ee7503;" [routerLink]="['/signup']" routerLinkActive="active" >signup </a>
+                                             
+                                        </div><br>
+                                        <div class="d-flex justify-content-center">
+                                            <a style="color: #ee7503;" [routerLink]="['/forgot']"  routerLinkActive="active" >Forgot your password? </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="nav-link" routerLink="/check" routerLinkActive="active">admin</a> <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+</div>

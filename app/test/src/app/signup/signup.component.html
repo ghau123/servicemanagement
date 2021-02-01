@@ -1,0 +1,85 @@
+
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+        
+        <div class=" col-md-8 col-lg-6">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-8 mx-auto">
+                            <h3 class="login-heading mb-4"></h3>                                                                                                                                                                       
+                            <div class="container">
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Sign Up</h3>
+                                     
+                                    </div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    <input type="text" class="form-control"  [(ngModel)]="signUpUserData.firstName"  name="firstName" placeholder="Firstname">
+                                                </div>
+                                            </div>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    <input type="text" class="form-control"  [(ngModel)]="signUpUserData.lastName"  name="lastName" placeholder="Lastname">
+                                                </div>
+                                            </div>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                                    <input type="password" class="form-control"  [(ngModel)]="signUpUserData.password"  name="password" placeholder="password">
+                                                </div>
+
+                                            </div>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                                    <input type="password" class="form-control"  [(ngModel)]="signUpUserData.passwordConfirm"  name="passwordConfirm" placeholder="Confirm password">
+                                                </div>
+
+                                            </div>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                                    <input type="Email" class="form-control"  [(ngModel)]="signUpUserData.email" name="email" placeholder="Email" required>
+                                                </div>
+                                            </div>
+                                            <div class="input-group form-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                                    <input type="number" class="form-control"   [(ngModel)]="signUpUserData.phoneNumber"  name="phoneNumber" placeholder="Phone Number" required>
+                                                </div>
+                                            </div>
+                                           
+                                            <div class="form-group">
+                                                <input type="submit" value="Submit" class="btn float-right login_btn1"  (click)="signUpUser()">
+                                                
+                                            </div>
+                                          
+                                        </form>
+                                    </div>
+                                    <div class="card-footer">
+
+                                        <div class="d-flex justify-content-center links"
+                                            style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                            Already have an account?<a style="color: #ee7503;" [routerLink]="['/login']" routerLinkActive="active" >Login Page </a>
+                                             
+                                        </div><br>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
